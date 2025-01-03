@@ -1,6 +1,6 @@
 
 import motor.motor_asyncio
-from config import DB_URI, DB_NAME ,REFERTIME
+from config import DB_URL, DB_NAME ,REFERTIME
 
 
 dbclient = motor.motor_asyncio.AsyncIOMotorClient(DB_URI)
